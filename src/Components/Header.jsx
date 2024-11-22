@@ -31,7 +31,7 @@ export default function Header(props) {
             <div className = "logo"> Shop</div>
             <ul className = "nav">  
             <li> <a href ="https://www.half-life.com/ru/home/">My own game</a></li>
-            <li><a href ="https://weezer.com/">my children</a> </li>
+            <li><a href ="https://james-hetfield.streamlit.app/">chI--L--E-n</a> </li>
             <li><a href ="https://www.arizona.edu">Arizona</a></li>
             <li className = {`shopcart ${cartOpen && 'active'}`}><TfiBrushAlt onClick = {() => setCartOpen(cartOpen=!cartOpen)}/></li>
             </ul>
